@@ -31,9 +31,7 @@ def main():
 
     try:
         for line in sys.stdin:
-            # print(">>>", line)
             parts = line.split()
-            # print(len(parts), parts)
 
             if len(parts) != 9:
                 continue
