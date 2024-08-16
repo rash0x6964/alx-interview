@@ -33,9 +33,6 @@ def main():
         for line in sys.stdin:
             parts = line.split()
 
-            if len(parts) != 9:
-                continue
-
             try:
                 file_size = int(parts[-1])
                 total_size += file_size
