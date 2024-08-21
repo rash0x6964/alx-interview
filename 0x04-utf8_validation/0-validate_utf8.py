@@ -4,11 +4,11 @@
 def validUTF8(data):
     number_of_bytes = 0
 
-    mask1 = 1 << 7  # 10000000
-    mask2 = 1 << 6  # 01000000
+    mask1 = 1 << 7
+    mask2 = 1 << 6
 
     for num in data:
-        mask = 1 << 7 # 10000000
+        mask = 1 << 7
         if number_of_bytes == 0:
             while mask & num:
                 number_of_bytes += 1
