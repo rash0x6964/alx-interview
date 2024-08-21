@@ -1,7 +1,9 @@
 #!/usr/bin/python3
+""" A module include a function to validate UTF8 """
 
 
 def validUTF8(data):
+    """ UTF8 validation """
     number_of_bytes = 0
 
     mask1 = 1 << 7
