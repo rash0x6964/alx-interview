@@ -30,7 +30,8 @@ def calculate_winner(n):
 
 
 def isWinner(x, nums):
-    """Determine who the winner is after x rounds of the game."""
+    """Determine who the winner is after x rounds of the game.
+    """
     maria_wins = 0
     ben_wins = 0
 
